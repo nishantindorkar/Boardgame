@@ -116,15 +116,15 @@
 		</plugins>
 	</build>
 	<distributionManagement>
-        <repository>
-            <id>my-maven-repo</id>
-            <url>http://100.25.154.212:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>maven-snapshot</id>
-            <url>http://100.25.154.212:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+	        <repository>
+	            <id>maven-repo</id>
+	            <url>http://100.25.154.212:8081/repository/maven-releases/</url>
+	        </repository>
+	        <snapshotRepository>
+	            <id>maven-snapshot</id>
+	            <url>http://100.25.154.212:8081/repository/maven-snapshots/</url>
+	        </snapshotRepository>
+    	</distributionManagement>
 	
 
 </project>
